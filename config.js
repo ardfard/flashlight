@@ -6,7 +6,7 @@ exports.ES_HOST  = process.env.ES_HOST || 'localhost';
 exports.ES_PORT  = process.env.ES_PORT || '9200';
 exports.ES_USER  = process.env.ES_USER || null;
 exports.ES_PASS  = process.env.ES_PASS || null;
-exports.FB_PATHS = process.env.FB_PATHS
+exports.FB_PATH = process.env.FB_PATH
 exports.CLEANUP_INTERVAL =
   process.env.NODE_ENV === 'production' ?
     3600 * 1000 /* once an hour */ :
